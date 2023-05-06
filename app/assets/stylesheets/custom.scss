@@ -20,6 +20,14 @@
       max-width: 80%;
     }
   }
+  .dang{
+    position: absolute;
+    right: calc(10% + 35px);
+    opacity: 0.7;
+    &:hover {
+      opacity: 1;
+    }
+  }
   .post-card{
     .header-img {
       width: 100%;
@@ -27,5 +35,9 @@
       background-size: cover;
       background-position: center;
     }
+  }
+  #elements {
+    list-style: none;
+    padding-left: 0;
   }
 }
